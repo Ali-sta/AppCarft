@@ -1,0 +1,47 @@
+.Content-Sec{
+    h4{
+        font-size: 52px;
+        font-family:$Poppins_Medium;
+        color: black;
+    }
+    h1{
+        font-size: 52px;
+        font-family:$Poppins_Bold ;
+        color: #29B5F8;
+    }
+    p{
+        font-size: 18px;
+        font-family: $Poppins_Light;
+        color: #7C7C7C;
+        line-height: 40px;
+    }
+    a{
+        background-image: linear-gradient(316deg, #29B5F8 25%, #1380F0 90%);
+        padding: 18px 25px;
+        border-radius: 46px;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        font-family: "Poppins-Light";
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        width: 50%;
+        margin-top: 50px;
+    }
+        
+}
+.RowRevs{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.WhyAppFirst{
+    position: relative;
+    display: block;
+}
+.WhyApps{
+    position: relative;
+}

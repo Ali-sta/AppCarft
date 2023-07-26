@@ -1,0 +1,105 @@
+.Footer-Sec{
+    height: 650px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 6em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .Contact-Area{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        .Contact-Box{
+            h4{
+                font-size: 20px;
+                color: #29B5F8;
+                font-family: $Poppins_Bold;
+            }
+            a.Btn-Com{
+                color: white;
+                text-decoration: none; background: linear-gradient(#29B5F8, #29B5F8) left no-repeat, #ffffff;
+                background-size: 0% 100%;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: rgb(255 255 255 / 37%);
+                transition: 1s ease-in-out; 
+                font-size: 18px;
+                font-family: $Poppins_Regular;
+                color: white;
+                text-decoration: none;
+            }
+            a.Btn-Com:hover{
+                background-size: 100% 100%;
+            }
+        
+        }
+    }
+    .Footer-Logo-Sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .Footer-Logo-Sec:after{
+        content: "";
+        position: absolute;
+        width: 42%;
+        height: 2px;
+        background-color: white;
+        left: 0;
+        top: 30px;
+        bottom: 0;
+        margin: auto;
+    }
+    .Footer-Logo-Sec:before{
+        content: "";
+        position: absolute;
+        width: 42%;
+        height: 2px;
+        background-color: white;
+        right: 0;
+        top: 30px;
+        bottom: 0;
+        margin: auto;
+    }
+   
+    .Social-Icons_Area{
+        display: grid;
+        grid-template-columns: 50px 50px 20px;
+        justify-content: center;
+        margin-top: 20px;
+        div a{
+            color: white;
+        }
+        a:hover{
+        color: #29B5F8;
+        transition: all ease-in-out .3s;
+        }
+
+    }
+}
+.Copy-Right-Sec{
+    background-color: #162F54;
+    text-align: center;
+    padding: 12px 0px;
+    p{
+        font-size: 14px;
+        margin-bottom: 0px;
+        color: white;
+        font-family: $Poppins_Regular;
+    }
+    a.Btn-Com{
+        color: white;
+        text-decoration: none; background: linear-gradient(#ffffff, #ffffff) left no-repeat, #ffffff;
+        background-size: 0% 100%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #ffffff8f;
+        transition: 1s ease-in-out; 
+    }
+    a.Btn-Com:hover{
+        background-size: 100% 100%;
+    }
+}
+
+
+

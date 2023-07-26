@@ -1,0 +1,31 @@
+.Most-Experience-Comm{
+    .Image-Sec{
+        background-size: cover;
+        padding: 20px 0px;
+        background-repeat: no-repeat;
+    }
+    .Content-Sec{
+        h1{
+            font-size: 52px;
+            font-family: $Poppins_Medium;
+            color: black;
+            text-transform: capitalize;
+            span{
+                color: #29B5F8;
+                font-family: $Poppins_Bold;
+            }
+        }
+        p{
+            font-size: 18px;
+            color: #7C7C7C;
+            line-height: 40px;
+            font-family: $Poppins_Light ;
+            padding: 30px 0px;
+        }
+        .Most {
+            a{
+              padding: 10px 10px;
+            }
+        }
+    }
+}

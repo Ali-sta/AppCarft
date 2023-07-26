@@ -1,0 +1,43 @@
+.Testimonials-Sec{
+    margin: 90px 0px;
+    h1{
+        font-size: 52px;
+        font-family: $Poppins_Bold;
+        color: #29B5F8;
+    }
+    p{
+        font-size: 32px;
+        font-family: $Poppins_Regular;
+        color: #000000;
+    }
+    .Client-Reviews{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        margin: 40px 0px;
+        .img-Heading-Rating{
+            display: grid;
+            grid-template-columns: 130px 1fr;
+            column-gap: 20px;
+            .Nme-rating{
+                display: grid;
+                align-items: center;
+                h1{
+                    font-size: 22px;
+                    font-family: $Poppins_Medium;
+                    color: black;
+                    span{
+                        font-family: $Poppins_Bold;
+                        color: #29B5F8;
+                    }
+                }
+
+            }
+        }
+        p{
+            font-size: 22px;
+            color: #011828;
+            font-family: $Poppins_Regular;
+            line-height: 35px;
+        }
+    }
+}

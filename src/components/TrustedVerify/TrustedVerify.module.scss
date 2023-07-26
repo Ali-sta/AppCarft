@@ -1,0 +1,26 @@
+.TrustedVerify{
+    margin: 100px 0px;
+    .Content-Col{
+        display: flex;
+        align-items:center;
+    }
+    .Content-Sec{
+        padding: 0px 20px;
+        h1{
+            font-size: 53px;
+            color: black;
+            font-family: $Poppins_Medium ;
+            span{
+                color: #29B5F8;
+                font-family: $Poppins_Bold ;
+            }
+        }
+        p{
+            font-size: 18px;
+            color: #7C7C7C;
+            font-family: $Poppins_Light;
+            line-height: 40px;
+            margin: 20px 0px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import "./fonts.scss";
+.container{
+    max-width: 1240px !important;
+}
+.Btn-Box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding-top: 30px;
+    a {
+        background-image: linear-gradient(316deg, #29B5F8 25%, #1380F0 90%);
+        padding: 18px 25px;
+        border-radius: 46px;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        font-family: "Poppins-Light";
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+}

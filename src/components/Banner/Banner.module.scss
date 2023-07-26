@@ -1,0 +1,59 @@
+.Banner-Sec{    
+    height: 900px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    margin-top: -120px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    .Content-Sec{
+        h1{
+            font-size: 52px;
+            color: white;
+            font-family: $Poppins_Bold;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            line-height: 60px;
+            span{
+                color: #31C8FA;
+            }
+        }
+        p{     
+        font-size: 20px;
+        color: white;
+        font-family: 'Poppins-Light';
+        margin-top: 30px;
+        }
+    }
+    .Image-Sec{
+        img{
+            position: absolute;     
+            top: 140px;
+
+        }
+
+    }
+}
+
+
+
+
+//------RESPONSIVE-------------
+
+@media(min-width:1600px){
+    .Banner-Sec{
+        height: 980px;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        margin-top: -120px;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        background-repeat: no-repeat;
+    }
+}
